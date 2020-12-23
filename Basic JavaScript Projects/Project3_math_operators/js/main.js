@@ -37,8 +37,8 @@ function Increment_Operator(){ //increase a number by 1
     document.write(value);
 }
 
-function Random_Number(){ //output a randome number between 0 and 100
-    window.alert(Math.random() * 100);
+function Random_Number(){ //output a random number between 0 and 100
+    document.getElementById("randomNum").innerHTML = (Math.random() *100);
 }
 function Round_Number(){ //round a number to the nearest integer
     document.getElementById("Round").innerHTML = Math.round(10.2);
