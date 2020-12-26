@@ -33,7 +33,7 @@ function Check_age(){ //function to determine if the input is greater than or eq
 }
 
 function Time_function(){ //function to determine the time of day output a message based on teh time. Note, I already did a function similar to this one above but the assignment was to copy this one exactly so I added it again. :)
-    var Time = vew Date().getHours();
+    var Time = new Date().getHours();
     var Reply;
     if(Time < 12 == Time > 0){
         Reply = "It is morning time!";
