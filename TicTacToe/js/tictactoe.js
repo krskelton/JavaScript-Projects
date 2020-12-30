@@ -85,21 +85,21 @@ function checkWinConditions(){
     //X 0,4,8 condition
     else if(arrayIncludes('0X', '4X', '8X')){drawWinLine(100,100,520,520);}
     //o 0,1,2 condition
-    else if(arrayIncludes('0o', '1o', '2o')){drawWinLine(50,100,558,100);}
+    else if(arrayIncludes('0O', '1O', '2O')){drawWinLine(50,100,558,100);}
     //o 3,4,5 condition
-    else if(arrayIncludes('3o', '4o', '5o')){drawWinLine(50,304,558,304);}
+    else if(arrayIncludes('3O', '4O', '5O')){drawWinLine(50,304,558,304);}
     //o 6,7,8 condition
-    else if(arrayIncludes('6o', '7o', '8o')){drawWinLine(50,508,558,508);}
+    else if(arrayIncludes('6O', '7O', '8O')){drawWinLine(50,508,558,508);}
     //o 0,3,6 condition
-    else if(arrayIncludes('0o', '3o', '6o')){drawWinLine(100,50,100,558);}
+    else if(arrayIncludes('0O', '3O', '6O')){drawWinLine(100,50,100,558);}
     //o 1,4,7 condition
-    else if(arrayIncludes('1o', '4o', '7o')){drawWinLine(304,50,304,558);}
+    else if(arrayIncludes('1O', '4O', '7O')){drawWinLine(304,50,304,558);}
     //o 2,5,8 condition
-    else if(arrayIncludes('2o', '5o', '8o')){drawWinLine(508,50,508,558);}
+    else if(arrayIncludes('2O', '5O', '8O')){drawWinLine(508,50,508,558);}
     //o 6,4,2 condition
-    else if(arrayIncludes('6o', '4o', '2o')){drawWinLine(100,508,510,90);}
+    else if(arrayIncludes('6O', '4O', '2O')){drawWinLine(100,508,510,90);}
     //o 0,4,8 condition
-    else if(arrayIncludes('0o', '4o', '8o')){drawWinLine(100,100,520,520);}
+    else if(arrayIncludes('0O', '4O', '8O')){drawWinLine(100,100,520,520);}
     //This condition checks for tie. If none of the above conditions register and 9 squares are selected, the code executes
     else if(selectedSquares.length >= 9){
         //Thids function plays the tie game sound
